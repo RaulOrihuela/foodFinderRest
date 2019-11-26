@@ -1,4 +1,4 @@
-package java.integration.util;
+package integration.util;
 
 import mx.tec.foodFinder.bean.Recipe;
 import mx.tec.foodFinder.util.RecipeSearcherMemory;

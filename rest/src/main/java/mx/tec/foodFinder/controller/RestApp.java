@@ -1,6 +1,7 @@
 package mx.tec.foodFinder.controller;
 
 import mx.tec.foodFinder.bean.Recipe;
+import mx.tec.foodFinder.bean.User;
 import mx.tec.foodFinder.util.ServiceManager;
 
 import javax.jws.WebParam;
@@ -37,5 +38,21 @@ public class RestApp {
     @Consumes(MediaType.APPLICATION_JSON)
     public boolean createRecipe(@WebParam Recipe recipe) {
         return ServiceManager.getInstance().getRecipeService().recipe_C(recipe);
+    }
+
+    @POST
+    @Path("/userC")
+    @Produces(MediaType.APPLICATION_JSON)
+    @Consumes(MediaType.APPLICATION_JSON)
+    public User createUser(@WebParam User user) {
+        return ServiceManager.getInstance().getUserService().User_C(user);
+    }
+
+    @POST
+    @Path("/userV")
+    @Produces(MediaType.APPLICATION_JSON)
+    @Consumes(MediaType.APPLICATION_JSON)
+    public User validateUser(@WebParam User user) {
+        return ServiceManager.getInstance().getUserService().User_V(user);
     }
 }

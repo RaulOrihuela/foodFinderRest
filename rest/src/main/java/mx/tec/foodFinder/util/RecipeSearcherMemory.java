@@ -45,4 +45,13 @@ public class RecipeSearcherMemory {
         }
         newRecipes.clear();
     }
+
+    public void saveNewRecipes_text(){
+        for (int i =0; i<newRecipes.size(); i++){
+            if (ServiceManager.getInstance().getRecipeService().recipe_C_text(newRecipes.get(i))){
+                knownRecipes.put(newRecipes.get(i).getName(),newRecipes.get(i));
+            }
+        }
+        newRecipes.clear();
+    }
 }
