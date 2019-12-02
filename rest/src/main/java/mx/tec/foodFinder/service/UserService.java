@@ -11,6 +11,13 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class UserService implements IUserService {
+    private static UserService instance = null;
+    private UserService(){}
+    public static synchronized UserService getInstance(){
+        if (instance == null) instance = new UserService();
+        return instance;
+    }
+
     @Override
     public User User_C(User user) {
         try {

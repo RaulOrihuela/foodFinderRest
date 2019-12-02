@@ -12,6 +12,12 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class RecipeService implements IRecipeService {
+    private static RecipeService instance = null;
+    private RecipeService(){}
+    public static synchronized RecipeService getInstance(){
+        if (instance == null) instance = new RecipeService();
+        return instance;
+    }
 
     @Override
     public boolean recipe_C(Recipe recipe) {
@@ -195,15 +201,21 @@ public class RecipeService implements IRecipeService {
         return result;
     }
     @Override
-    public ArrayList<Recipe> recipeFav_U(int user, int recipe) {
-        ArrayList<Recipe> result = new ArrayList<>();
+    public boolean recipeFav_U(int user, int recipe) {
+        boolean result = false;
         try{
             Connection connection = MySQLConnection.getConnection("foodFinder","root","5th1ra5ukham45anam");
             String query = "CALL recipeFav_U(?,?)";
             CallableStatement statement = connection.prepareCall(query);
             statement.setInt("in_id",user);
             statement.setInt("in_recipe",recipe);
-            statement.execute();
+            ResultSet resultSet = statement.executeQuery();
+
+            if (resultSet.next()){
+                result = resultSet.getBoolean("result");
+            }
+
+            resultSet.close();
             statement.close();
             connection.close();
         }catch (SQLException ex) {

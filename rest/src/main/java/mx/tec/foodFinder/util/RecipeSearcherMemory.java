@@ -1,6 +1,7 @@
 package mx.tec.foodFinder.util;
 
 import mx.tec.foodFinder.bean.Recipe;
+import mx.tec.foodFinder.service.RecipeService;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -13,7 +14,7 @@ public class RecipeSearcherMemory {
 
     private RecipeSearcherMemory(){
         knownRecipes = new HashMap<>();
-        newRecipes = ServiceManager.getInstance().getRecipeService().recipe_RA();
+        newRecipes = RecipeService.getInstance().recipe_RA();
         for (int i = 0; i<newRecipes.size();i++){
             knownRecipes.put(newRecipes.get(i).getName(),newRecipes.get(i));
         }
@@ -39,7 +40,7 @@ public class RecipeSearcherMemory {
 
     public void saveNewRecipes(){
         for (int i =0; i<newRecipes.size(); i++){
-            if (ServiceManager.getInstance().getRecipeService().recipe_C(newRecipes.get(i))){
+            if (RecipeService.getInstance().recipe_C(newRecipes.get(i))){
                 knownRecipes.put(newRecipes.get(i).getName(),newRecipes.get(i));
             }
         }
@@ -48,7 +49,7 @@ public class RecipeSearcherMemory {
 
     public void saveNewRecipes_text(){
         for (int i =0; i<newRecipes.size(); i++){
-            if (ServiceManager.getInstance().getRecipeService().recipe_C_text(newRecipes.get(i))){
+            if (RecipeService.getInstance().recipe_C_text(newRecipes.get(i))){
                 knownRecipes.put(newRecipes.get(i).getName(),newRecipes.get(i));
             }
         }

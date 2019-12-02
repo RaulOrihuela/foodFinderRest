@@ -10,5 +10,5 @@ public interface IRecipeService {
     Recipe recipe_R(int id);
     ArrayList<Recipe> recipe_RA();
     ArrayList<Recipe> recipeFav_RA(int id);
-    ArrayList<Recipe> recipeFav_U(int user, int recipe);
+    boolean recipeFav_U(int user, int recipe);
 }

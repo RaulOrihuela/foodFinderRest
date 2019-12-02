@@ -9,24 +9,24 @@
     <list default="true" id="1a728157-d62c-4556-bc01-ad98b6d13eda" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/controller/RestApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/controller/RestApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/crawler/RecipeSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/crawler/SuperamaRecipeSearcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/service/IRecipeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/service/IRecipeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/service/RecipeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/service/RecipeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/util/RecipeSearcherMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/util/RecipeSearcherMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/util/ServiceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/util/ServiceManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/integration/crawler/RecipeSearcherIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integration/superama/RecipeSearcherIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/integration/util/RecipeSearcherMemoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/integration/util/RecipeSearcherMemoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/rest.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/tec/foodFinder/crawler/RecipeSearcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/util/ServiceManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/tec/foodFinder/controller/RestApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/tec/foodFinder/controller/RestApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mx/tec/foodFinder/service/IRecipeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/tec/foodFinder/service/IRecipeService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mx/tec/foodFinder/service/RecipeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/tec/foodFinder/service/RecipeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/tec/foodFinder/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/tec/foodFinder/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mx/tec/foodFinder/util/RecipeSearcherMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/tec/foodFinder/util/RecipeSearcherMemory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mx/tec/foodFinder/util/ServiceManager.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/rest.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/rest.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest/WEB-INF/classes/mx/tec/foodFinder/controller/RestApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/rest/WEB-INF/classes/mx/tec/foodFinder/controller/RestApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/rest/WEB-INF/classes/mx/tec/foodFinder/service/IRecipeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/rest/WEB-INF/classes/mx/tec/foodFinder/service/IRecipeService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/rest/WEB-INF/classes/mx/tec/foodFinder/service/RecipeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/rest/WEB-INF/classes/mx/tec/foodFinder/service/RecipeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest/WEB-INF/classes/mx/tec/foodFinder/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/rest/WEB-INF/classes/mx/tec/foodFinder/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/rest/WEB-INF/classes/mx/tec/foodFinder/util/RecipeSearcherMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/rest/WEB-INF/classes/mx/tec/foodFinder/util/RecipeSearcherMemory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/integration/controller/RecipeSearcherIT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/integration/service/RecipeSearcherMemoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest/WEB-INF/classes/mx/tec/foodFinder/util/ServiceManager.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,29 +44,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/controller/RestApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="-182">
+              <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#988#989#0" expanded="true" />
+                <element signature="e#1163#1164#0" expanded="true" />
+                <element signature="e#1230#1231#0" expanded="true" />
                 <element signature="e#1381#1382#0" expanded="true" />
                 <element signature="e#1462#1463#0" expanded="true" />
-                <element signature="e#1709#1710#0" expanded="true" />
+                <element signature="e#1629#1630#0" expanded="true" />
+                <element signature="e#1710#1711#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/util/ServiceManager.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/util/RecipeSearcherMemory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="192">
+              <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -74,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/service/IRecipeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="170">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -83,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/service/RecipeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <state relative-caret-position="195">
+              <caret line="214" column="25" selection-start-line="214" selection-start-column="25" selection-end-line="214" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -103,20 +107,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-              <folding>
-                <element signature="e#140#141#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -130,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+            <state relative-caret-position="85">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,19 +160,19 @@
         <option value="$PROJECT_DIR$/src/main/java/mx/tec/rest/crawler/RecipeSearcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/mx/tec/rest/bean/Recipe.java" />
         <option value="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/bean/Recipe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/service/IRecipeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/crawler/RecipeSearcher.java" />
         <option value="$PROJECT_DIR$/src/test/java/integration/crawler/RecipeSearcherIT.java" />
         <option value="$PROJECT_DIR$/src/test/java/integration/util/RecipeSearcherMemoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/crawler/SuperamaRecipeSearcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/util/RecipeSearcherMemory.java" />
         <option value="$PROJECT_DIR$/src/test/java/integration/superama/RecipeSearcherIT.java" />
         <option value="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/bean/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/service/IUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/service/RecipeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/util/ServiceManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/controller/RestApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/util/ServiceManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/util/RecipeSearcherMemory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/service/IRecipeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/service/RecipeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/controller/RestApp.java" />
       </list>
     </option>
   </component>
@@ -215,6 +205,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -336,14 +328,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574759210500" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575239790744" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Examen/rest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -627,7 +617,9 @@
       <workItem from="1572006808786" duration="981000" />
       <workItem from="1572049755647" duration="1884000" />
       <workItem from="1574648407041" duration="4063000" />
-      <workItem from="1574752144179" duration="6960000" />
+      <workItem from="1574752144179" duration="7378000" />
+      <workItem from="1574780839588" duration="1073000" />
+      <workItem from="1575223373910" duration="5653000" />
     </task>
     <servers />
   </component>
@@ -664,7 +656,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28136000" />
+    <option name="totallyTimeSpent" value="35280000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -679,7 +671,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27987897" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28895614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -687,7 +679,6 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Duplicate detector" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
@@ -703,6 +694,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Duplicate detector" order="15" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -766,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/util/RecipeSearcherMemory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="50" column="98" selection-start-line="50" selection-start-column="98" selection-end-line="50" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/crawler/SuperamaRecipeSearcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -787,51 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/service/IRecipeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/util/ServiceManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/service/RecipeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/service/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -839,25 +779,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/controller/RestApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/bean/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1381#1382#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
-            <element signature="e#1709#1710#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+        <state relative-caret-position="85">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/util/RecipeSearcherMemory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/util/ServiceManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/service/IRecipeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/service/RecipeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="214" column="25" selection-start-line="214" selection-start-column="25" selection-end-line="214" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mx/tec/foodFinder/controller/RestApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-182">
+          <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1381#1382#0" expanded="true" />
+            <element signature="e#1462#1463#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1710#1711#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -921,6 +906,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
