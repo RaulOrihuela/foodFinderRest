@@ -1,8 +1,12 @@
 package mx.tec.foodFinder.controller;
 
 import mx.tec.foodFinder.bean.Recipe;
+import mx.tec.foodFinder.bean.SupermarketIngredient;
+import mx.tec.foodFinder.bean.SupermarketLocation;
 import mx.tec.foodFinder.bean.User;
 import mx.tec.foodFinder.service.RecipeService;
+import mx.tec.foodFinder.service.SupermarketIngredientService;
+import mx.tec.foodFinder.service.SupermarketLocationService;
 import mx.tec.foodFinder.service.UserService;
 
 import javax.jws.WebParam;
@@ -62,5 +66,34 @@ public class RestApp {
     @Consumes(MediaType.APPLICATION_JSON)
     public User validateUser(@WebParam User user) {
         return UserService.getInstance().User_V(user);
+    }
+
+
+    @GET
+    @Path("/supermarket/{name}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public List<SupermarketLocation> readSupermarketLocation(@PathParam("name") String name) {
+        return SupermarketLocationService.getInstance().supermarketLocation_RA(name);
+    }
+
+    @GET
+    @Path("/ingredientName/{name}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public List<SupermarketIngredient> readSupermarketIngredient(@PathParam("name") String name) {
+        return SupermarketIngredientService.getInstance().supermarketIngredient_RA(name);
+    }
+
+    @GET
+    @Path("/ingredientText/{name}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public List<SupermarketIngredient> readSupermarketIngredientText(@PathParam("name") String name) {
+        return SupermarketIngredientService.getInstance().supermarketIngredient_RA_text(name);
+    }
+
+    @GET
+    @Path("/ingredient/{id}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public List<SupermarketIngredient> readSupermarketIngredientId(@PathParam("id") int id) {
+        return SupermarketIngredientService.getInstance().supermarketIngredient_RA(id);
     }
 }
